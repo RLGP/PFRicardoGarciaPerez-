@@ -1,0 +1,59 @@
+//import de variables
+@import "../utilities/variables";
+
+/* contactanos */
+main{ 
+    .formulario{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: large;
+    }
+    .formulary{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    }
+}
+form{
+    width: 500px;
+}
+label, input, textarea, select{
+    display: block;
+    margin-left:30px;
+}
+input, textarea, select{
+    margin-bottom: 30px;
+}
+textarea{
+    resize: none;
+}
+input[type="submit"] {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: $color-secundario;
+    border: none;
+    font-weight: bolder;
+    height: 40px;
+    width: 70px;
+}
+input[type="submit"]:hover {
+    transition: 1s;
+    box-shadow: 5px 5px 0px black;
+}
+.logoide{
+    width: 50%;
+    height: 50%;
+}
+@media screen and (max-width:1024px){
+    .logoide{
+        display: none;
+    }
+    label{
+        display: flex;
+    }
+    label, input, textarea, select{
+        display: flex;
+        margin-left:30px;
+    }
+}

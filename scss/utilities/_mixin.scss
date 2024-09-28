@@ -1,0 +1,8 @@
+//mixin flex
+@mixin flex{
+    display: flex;
+    justify-content: space-between;
+}
+@mixin border-bottom{
+    margin-bottom: -21px;
+}

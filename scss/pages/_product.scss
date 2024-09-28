@@ -1,0 +1,34 @@
+//import de variables
+@import "../utilities/variables";
+
+/* producto */
+main{
+    .sentry{
+        display: flex;
+        font-size: xx-large;
+    }
+    .turret{
+        margin-left: 20px;
+        margin-right: 20px;
+    } 
+    button{
+        background-color: $color-secundario;
+        display: inline-block;
+        padding: 10px;
+        margin-top: 20px;
+        border: 2px;
+        font-weight: bolder;
+        cursor: pointer;
+    } 
+    button:hover {
+        transition: 1s;
+        box-shadow: 5px 5px 0px black;
+    }  
+    iframe{
+        width: 90%;
+        margin: 20px;
+        display: block;
+        padding-left: 90px;
+    }
+}
+

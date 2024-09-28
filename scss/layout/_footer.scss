@@ -1,0 +1,22 @@
+//import de variables
+@import "../utilities/variables";
+//imort de mixin
+@import "../utilities/mixin";
+
+/* footer */
+footer{
+    text-align: center;
+    background-color: $color-secundario;
+    font-weight:bold;
+    font-size: larger;
+    @include border-bottom;
+}
+@media screen and (max-width: 600px){
+    footer{
+        font-size: 15px;
+        text-align: center;
+        background-color: $color-secundario;
+        font-weight:bold;
+        @include border-bottom;
+    }
+}

@@ -1,0 +1,45 @@
+//import de variables
+@import "../utilities/variables";
+//imort de mixin
+@import "../utilities/mixin";
+
+/* navbar */
+header{
+    background-color: $color-principal;
+    @include flex;
+    align-items: center;
+    img{
+        padding-left: 20px;
+        width: 80%;
+    }
+    nav ul{
+        padding-right: 40px;
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+}
+.navbar-nav{
+    text-align: center;
+}
+.navbar-toggler{
+    margin-right: 20px;
+}
+.navbar{
+    .navbar-nav{
+        .nav-link {
+            color: #000000;
+            font-size: 30px;
+        }
+        .nav-link:hover{
+            color: #EDEADE;
+        }
+        .nav-link:active{
+            background-color: $color-secundario;
+            color: #000000;
+        }
+    }
+}
+.navbar-toggler{
+    color: $color-secundario;
+}
