@@ -125,6 +125,14 @@ input[type=submit]:hover {
   width: 50%;
   height: 50%;
 }
+/* footer */
+footer {
+  text-align: center;
+  background-color: #ff9a00;
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: -21px;
+}
 
 /* MEDIA QUERIES */
 /* Body */
@@ -379,14 +387,6 @@ input[type=submit]:hover {
 }
 
 /* footer */
-footer {
-  text-align: center;
-  background-color: #ff9a00;
-  font-weight: bold;
-  font-size: larger;
-  margin-bottom: -21px;
-}
-
 @media screen and (max-width: 600px) {
   footer {
     font-size: 15px;
