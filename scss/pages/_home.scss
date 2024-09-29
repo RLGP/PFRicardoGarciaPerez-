@@ -8,14 +8,14 @@
             padding-left: 60px;
             padding-right: 60px;
             text-align:center;
-            font-size: xx-large;
+            font-size: 20px;
         }
         .desk{
             margin-top: 20px;
             margin-bottom: 20px;
         }
         .disclosure{
-            font-size: 20px;
+            font-size: 16px;
         }
     }
 }
@@ -25,10 +25,10 @@
             padding-left: 20px;
             padding-right: 20px;
             text-align:center;
-            font-size: 25px;
+            font-size: 16px;
         }
         .disclosure{
-            font-size: 15px;
+            font-size: 12px;
         }
         .desk{
             margin-top: 20px;
@@ -40,7 +40,7 @@
 @media screen and (min-width: 600px){
     main{
         .disclosure{
-        font-size: 15px;
+        font-size: 16px;
         }
         .desk{
         margin-top: 20px;
@@ -51,7 +51,7 @@
             padding-left: 20px;
             padding-right: 20px;
             text-align:center;
-            font-size: 30px;
+            font-size: 20px;
         }
     }
 }

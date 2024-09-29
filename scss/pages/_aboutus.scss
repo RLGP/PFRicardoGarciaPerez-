@@ -5,12 +5,12 @@
 @media screen and (min-width:1024px){
 main{ 
     .us{
-    font-size: xx-large;
+    font-size: 20px;
     padding-left: 60px;
     padding-right: 60px;
     }
     .letraspequenias{
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     }
     .device{
     width: 40%;
@@ -20,7 +20,7 @@ main{
 }
 @media screen and (max-width: 1024px){
     .us{
-        font-size: 25px;
+        font-size: 16px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -30,6 +30,6 @@ main{
     }
     .letraspequenias{
          margin-bottom: 20px;
-         font-size: 15px;
+         font-size: 12px;
     }
 }
