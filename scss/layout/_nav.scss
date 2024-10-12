@@ -29,7 +29,7 @@ header{
     .navbar-nav{
         .nav-link {
             color: #000000;
-            font-size: 26px;
+            font-size: 20px;
         }
         .nav-link:hover{
             color: #EDEADE;
@@ -42,4 +42,9 @@ header{
 }
 .navbar-toggler{
     color: $color-secundario;
+}
+@media screen and (max-width: 600px){
+    .navbar .navbar-nav .nav-link {
+        font-size: 18px;
+      }
 }

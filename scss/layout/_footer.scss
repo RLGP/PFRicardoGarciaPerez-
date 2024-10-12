@@ -13,10 +13,11 @@ footer{
 }
 @media screen and (max-width: 600px){
     footer{
-        font-size: 15px;
+        margin-top: 80px;
+        font-size: 18px;
         text-align: center;
-        background-color: $color-secundario;
-        font-weight:bold;
+        background-color: #ff9a00;
+        font-weight: bold;
         @include border-bottom;
     }
 }
